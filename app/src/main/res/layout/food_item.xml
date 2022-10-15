@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/food_item_height"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#F3F5F9"/>
+
+    <ImageView
+        android:id="@+id/preview"
+        android:layout_width="@dimen/food_image_height"
+        android:layout_height="@dimen/food_image_height"
+        android:scaleType="centerCrop"
+        android:layout_marginStart="@dimen/side_margin_16"
+        android:layout_marginTop="@dimen/side_margin_16"
+        tools:src="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="@dimen/side_margin_16"
+        android:layout_marginEnd="@dimen/side_margin_16"
+        android:layout_toEndOf="@id/preview"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textSize="@dimen/title_3"
+        android:textStyle="bold"
+        tools:text="Ветчина и грибы" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="start"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="@dimen/side_margin_16"
+        android:layout_marginTop="@dimen/margin_top_text"
+        android:layout_toEndOf="@id/preview"
+        android:ellipsize="end"
+        android:maxLines="4"
+        android:text="Ветчина,шампиньоны, увеличинная порция моцареллы, томатный соус" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/gender"
+        android:layout_width="87dp"
+        android:layout_height="32dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="start"
+        android:background="@drawable/button_1"
+        android:layout_marginBottom="@dimen/side_margin_16"
+        android:layout_marginEnd="@dimen/side_margin_16"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="от 345 р"
+        android:textColor="?attr/colorPrimary"
+        android:textSize="13sp" />
+
+</RelativeLayout>

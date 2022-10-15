@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">HammerFood</string>
+    <string name="error_text">Произошла ошибка при загрузке данных</string>
+    <string name="retry">Повторить</string>
+    <string name="menu_title">Меню</string>
+    <string name="profile_title">Профиль</string>
+    <string name="shopping_cart_title">Корзина</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

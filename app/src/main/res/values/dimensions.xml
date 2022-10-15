@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Text -->
+    <dimen name="margin_top_text">8dp</dimen>
+    <dimen name="title_1">35sp</dimen>
+    <dimen name="title_2">14sp</dimen>
+    <dimen name="title_3">16sp</dimen>
+
+    <!-- ToolBar -->
+    <dimen name="full_toolbar">290dp</dimen>
+    <dimen name="toolbar">94dp</dimen>
+
+    <!-- FoodItem -->
+    <dimen name="food_image_height">135dp</dimen>
+    <dimen name="food_item_height">167dp</dimen>
+
+    <!-- Other -->
+    <dimen name="corner">7dp</dimen>
+    <dimen name="side_margin_22">22dp</dimen>
+    <dimen name="side_margin_16">16dp</dimen>
+
+</resources>
